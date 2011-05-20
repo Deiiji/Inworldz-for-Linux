@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater can_close="true" can_drag_on_left="false" can_minimize="true"
+     can_resize="false" height="440" min_height="100" min_width="100"
+     name="floater_about" rect_control="FloaterAboutRect"
+     title="About InWorldz" width="470">
+  <tab_container
+		 follows="all"
+		 bottom="10"
+		 left="10"
+		 height="405"
+		 width="450"
+		 name="about_tab"
+		 tab_position="top">
+    <panel
+      border="true"
+      height="386"
+      label="Version"
+      help_topic="about_support_tab"
+      name="support_panel">
+      <text_editor bottom="28" embedded_items="false"
+         follows="left|top|right|bottom" font="SansSerif" height="352" left="6"
+         max_length="65536" mouse_opaque="true" name="support_editor" width="423"
+         word_wrap="true" />
+      <button follows="left|top" label="Copy to Clipboard" name="copy_btn"
+         left="5" bottom="0" top_pad="5" height="20" width="180" />
+    </panel>
+    <panel
+        border="true"
+        label="Credits"
+        height="386"
+        help_topic="about_credits_tab"
+        name="credits_panel">
+      <text_editor bottom="6" embedded_items="false"
+           follows="left|top|right|bottom" font="SansSerifSmall" height="374" left="6"
+           max_length="65536" mouse_opaque="true" name="credits_editor" width="423"
+           word_wrap="true">
+    InWorldz Viewer is brought to you by McCabe Maxsted and InWorldz, LLC, based on the Snowglobe Viewer.
+
+    Thanks go to the Snowglobe contributors as well as those who've contributed to the opensource Second Life viewer.
+
+    Thanks also go out to our InWorldz Mentors, without them, our IDI would be a lonely confusing place for our New Residents! Thank you, each of you, for taking time out of your day to be there to answer the questions, endure the lag, the facepalms, and just generally being of good spirits in guiding the new users. To our residents, because without each and every single one of you, we wouldn't have a reason to have mentors or a grid! Thank you for your perserverance with the bugs, the cans of bugspray often needed, the humor, and the grace to have the patience with pioneering!
+
+
+    3Dconnexion SDK Copyright (C) 1992-2007 3Dconnexion
+    APR Copyright (C) 2000-2004 The Apache Software Foundation
+    cURL Copyright (C) 1996-2002, Daniel Stenberg, (daniel@haxx.se)
+    DBus/dbus-glib Copyright (C) 2002, 2003  CodeFactory AB / Copyright (C) 2003, 2004 Red Hat, Inc.
+    expat Copyright (C) 1998, 1999, 2000 Thai Open Source Software Center Ltd.
+    FreeType Copyright (C) 1996-2002, The FreeType Project (www.freetype.org).
+    GL Copyright (C) 1999-2004 Brian Paul.
+    Havok.com(TM) Copyright (C) 1999-2001, Telekinesys Research Limited.
+    jpeg2000 Copyright (C) 2001, David Taubman, The University of New South Wales (UNSW)
+    jpeglib Copyright (C) 1991-1998, Thomas G. Lane.
+    ogg/vorbis Copyright (C) 2001, Xiphophorus
+    OpenSSL Copyright (C) 1998-2002 The OpenSSL Project.
+    SDL Copyright (C) 1997, 1998, 1999, 2000, 2001, 2002 Sam Lantinga
+    SSLeay Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+    xmlrpc-epi Copyright (C) 2000 Epinions, Inc.
+    zlib Copyright (C) 1995-2002 Jean-loup Gailly and Mark Adler.
+    google-perftools Copyright (c) 2005, Google Inc.
+    Code from FAAD2 is copyright (c) Nero AG, www.nero.com
+
+    All rights reserved.  See licenses.txt for details.
+      </text_editor>
+    </panel>
+  </tab_container>
+  <string name="you_are_at">
+		You are at [POSITION]
+	</string>
+</floater>

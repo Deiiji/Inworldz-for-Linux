@@ -1,0 +1,44 @@
+# 
+# This file contains names (and wildcards) of files that
+# Git should ignore.
+# 
+# Since we only care about the actual source code files,
+# all the artwork and libraries are ignored, as are the
+# files that are created when you compile.
+# 
+
+# ARTWORK
+
+linden/LICENSE-logos.txt
+
+# LIBRARIES
+
+linden/LICENSES/
+linden/LICENSE-libraries-*.txt
+linden/libraries/
+linden/indra/newview/dbghelp.dll
+linden/indra/newview/media_plugin_gstreamer010.log
+linden/indra/newview/*.lproj/
+linden/indra/newview/lib/*
+linden/indra/test_apps/
+
+
+# COMPILED STUFF
+
+linden/indra/viewer-*
+linden/indra/build-*
+linden/installed.xml
+*.pyc
+
+
+# PATCHES
+
+*.diff*
+*.patch*
+
+
+# MISCELLANEOUS
+
+ChangeLog.txt
+.DS_Store
+*.zip
