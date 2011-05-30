@@ -1,4 +1,4 @@
-Source code
+*Source code*
 ========
 The license for the source code in this distribution should be clearly
 marked on each source file.  Unless otherwise specified, the source
